@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="all">
+	<meta name="description" content="Welcome to Canton, the Daml ledger interoperabitlity protocol, providing interoperable workflow composition that is Scalable, Secure, and GDPR-compliant">
+	<meta name="keywords" content="Distributed Ledger, Technology, Digital, Asset, Platform, DLT, fintech, blockchain, Daml, GDPR, Interoperability, Scalability, Integrity">
+	<title>Canton</title>
+	<link media="all" rel="stylesheet" href="css/main.css">
+	<script src="js/jquery-3.4.1.min.js" defer></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-3.4.1.min.js" defer><\/script>')</script>
+	<script src="js/jquery.main.js" defer></script>
+	<script src="js/download.js" defer></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="top-container">
+			<header class="header">
+				<div class="container">
+					<div class="header-holder">
+						<strong class="logo">
+							<a href="#"><img src="images/logo.svg" alt="Canton"></a>
+						</strong>
+						<div class="nav-drop">
+							<div class="nav-area">
+								<ul class="menu base-ul">
+									<li class="active"><a href="#">Home</a></li>
+									<li><a href="#section01" class="smooth">What Canton Offers</a></li>
+									<li><a href="#section03" class="smooth">How Canton Works</a></li>
+									<li><a href="https://github.com/digital-asset/canton/releases">Download</a></li>
+									<li><a href="/docs/stable/user-manual/index.html">Documentation</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="menu-opener"></a>
+				</div>
+			</header>
+			<div class="visual-area">
+				<div class="container">
+					<div class="visual-caption">
+						<h1>Canton</h1>
+						<strong class="heading">Global Synchronization Beyond Blockchain</strong>
+					</div>
+					<div class="aboutus-area">
+						<div class="aboutus-holder">
+							<div class="text-area">
+								<strong class="title">Run composable distributed applications across trust boundaries and ledger choices with strong privacy and integrity.</strong>
+								<div class="more-info">
+									<a href="publications/canton-whitepaper.pdf" onclick="tag_download('whitepaper');" class="btn">Download our whitepaper</a>
+								</div>
+							</div>
+							<div class="image-holder">
+							<img src="images/simplified-diagram.png" alt="image-description">
+							</div>
+						</div>
+						<span class="text">
+							Canton is a Daml ledger interoperability protocol whose smart contract language and synchronization
+							protocol guarantee that data is reliably shared only with entitled parties in a way that is always
+							correct, even in the presence of malicious actors. Canton's topology can be extended without
+							friction with new parties, ledgers and applications building on other applications without
+							requiring a central managing entity or global consensus within the network.
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="main">
+			<div class="container">
+				<div class="offer-area" id="section01">
+					<h2>What Canton Offers</h2>
+					<ul class="offer-list base-ul">
+						<li>
+							<div class="icon-holder">
+								<a href="https://daml.com/" target="_blank"><img src="images/dml.svg" alt="dml"></a>
+							</div>
+							<div class="description">
+								<strong class="title">Runs Smart Contracts Written in Daml&trade;</strong>
+								<p>Daml&trade; is an enterprise grade, open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime. Learn more about Daml&trade; on <a href="http://daml.com" target="_blank">daml.com</a>.</p>
+							</div>
+						</li>
+						<li>
+							<div class="icon-holder">
+								<a href="publications/canton-whitepaper.pdf#page=11" onclick="tag_download('whitepaper');" target="_blank"><img src="images/global.svg" alt="global"></a>
+							</div>
+							<div class="description">
+								<strong class="title">Global Composability</strong>
+								<p>Different Daml based ledger instances can interoperate using the Canton synchronisation protocol. They can be merged and transformed, never risking a fork or lock-in, as they are always part of one Virtual Global Ledger. Digital assets and workflows can freely float between ledgers.</p>
+							</div>
+						</li>
+						<li>
+							<div class="icon-holder">
+								<a href="https://docs.daml.com/concepts/ledger-model/ledger-privacy.html" target="_blank"><img src="images/privacy.svg" alt="privacy"></a>
+							</div>
+							<div class="description">
+								<strong class="title">Privacy and GDPR Compliance</strong>
+								<p>Canton is built around the principle of data minimization and the right-to-forget. As a result, Canton is always GDPR compliant.</p>
+							</div>
+						</li>
+						<li>
+							<div class="icon-holder">
+								<a href="https://docs.daml.com/concepts/ledger-model/ledger-integrity.html" target="_blank"><img src="images/integrity.svg" alt="Integrity"></a>
+							</div>
+							<div class="description">
+								<strong class="title">Integrity</strong>
+								<p>Canton’s synchronisation protocol ensures your ledger is always in a valid state, and a corrupted state never occurs — even in the presence of malicious actors.</p>
+							</div>
+						</li>
+						<li>
+							<div class="icon-holder">
+								<a href="publications/canton-whitepaper.pdf#page=13" onclick="tag_download('whitepaper');" target="_blank"><img src="images/scalability.svg" alt="Horizontal Scalability"></a>
+							</div>
+							<div class="description">
+								<strong class="title">Horizontal Scalability</strong>
+								<p>Canton has no upper bound on how many transactions per second it can process. It can be scaled to achieve any transaction processing speed.</p>
+							</div>
+						</li>
+					</ul>
+					<span class="text">To learn more about what Canton offers, visit our <a href="/docs/stable/user-manual/index.html" target="_blank">Documentation Page</a>.</span>
+				</div>
+				<div class="contact-area" id="section02">
+					<div class="heading-area">
+						<h2>How To Get Canton</h2>
+						<p>Canton releases are on <a href="https://github.com/digital-asset/canton/releases">GitHub</a>.
+							Follow the <a href="/docs/stable/user-manual/tutorials/getting_started.html">Getting Started</a> tutorial.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="article-area" id="section03">
+				<div class="container">
+					<h2>How Canton Works</h2>
+					<div class="more-info">
+						<span class="text">Read about the main elements of Canton below.
+							For more information, read our <a href="publications/canton-whitepaper.pdf" onclick="tag_download('whitepaper');">white paper</a> or the publications on our <a href="/docs/stable/user-manual/architecture/research.html">research page</a>, or consult our <a href="/docs/stable/user-manual/index.html">documentation</a> for an architecture and reference guide.
+						</span>
+					</div>
+					<div class="more-info">
+						<a href="publications/canton-whitepaper.pdf" onclick="tag_download('whitepaper');" class="btn btn2">Download whitepaper</a>
+						<span class="more">Read our Whitepaper to learn about the long-term vision for Canton.</span>
+					</div>
+					<h3 id="elementsofcanton">Elements of Canton</h3>
+				</div>
+				<div class="article-holder">
+					<div class="container">
+						<article class="article">
+							<div class="image-holder">
+								<img src="images/parties.png" alt="parties">
+							</div>
+							<div class="description">
+								<strong class="title">Parties</strong>
+								<p>In Canton, <a href="https://docs.daml.com/daml/intro/6_Parties.html">Parties</a> can create, or participate in, distributed workflows written in <a href="http://daml.com">Daml&trade;</a>. A Party can be a legal entity, a physical person, or just one of many accounts for a person/entity.</p>
+							</div>
+						</article>
+						<article class="article">
+							<div class="image-holder">
+								<img src="images/participant-nodes.png" alt="parties">
+							</div>
+							<div class="description">
+								<strong class="title">Participant Nodes</strong>
+								<p>Parties register with one or more <a href="https://docs.daml.com/canton/architecture/requirements/requirements.html">Participant Nodes</a>. Nodes can host multiple parties and facilitate <a href="https://docs.daml.com/app-dev/index.html">party access to the ledger</a>.</p>
+							</div>
+						</article>
+						<article class="article">
+							<div class="image-holder">
+								<img src="images/domains-domain.png" alt="domains">
+							</div>
+							<div class="description">
+								<strong class="title">Domains and Domain Nodes</strong>
+								<p>Every node can connect through Canton to multiple Daml ledgers. Each Daml ledger instance is called a <a href="https://docs.daml.com/canton/architecture/overview.html#domain-entities">Domain</a> in Canton.</p>
+								<p>A domain can be implemented in different ways, depending on the trust requirements: For low trust environments, it can be implemented on a distributed ledger or on enclaves. Or it can be implemented in a centralised way if a trusted operator exists.
+									So called <a href="https://docs.daml.com/canton/architecture/overview.html#domain-entities">Domain Nodes</a> facilitate
+									Canton’s synchronization protocol by acting as messaging hub and gateway for the participant nodes to the Daml ledgers.</p>
+							</div>
+						</article>
+						<div class="article-text">
+							<p>All transaction data transferred between Participant Nodes is end-to-end encrypted and only selectively shared with other Participant Nodes on a strict need to know basis. The domains, therefore, do not learn the transaction contents. Also, Canton guarantees the integrity of ledgers, even in the presence of malicious participants. Furthermore, any Party can extend the ledger at any time without adversely impacting others. </p>
+						</div>
+					</div>
+				</div>
+				<div class="article-holder style01">
+					<div class="container">
+						<article class="article">
+							<div class="image-holder">
+								<img src="images/virtual-globalLedger.png" alt="virtual">
+							</div>
+							<div class="description">
+								<strong class="title">The Virtual Global Ledger</strong>
+								<p>Participant Nodes can at any point choose to connect to multiple domains and transfer workflows between those domains.</p>
+								<p>Therefore, domains do not impose hard boundaries, and Participant Nodes effectively participate in a <a href="https://docs.daml.com/canton/architecture/requirements/requirements.html#functional-requirements">Virtual Global Ledger</a> which is composed of all existing domains.</p>
+								<p>The Virtual Global Ledger is the underlying concept and does not exist physically, but is the result of the Canton synchronisation protocol that provides the integrity, privacy, auditability and transparency guarantees.</p>
+							</div>
+						</article>
+						<article class="article">
+							<div class="image-holder">
+								<img src="images/segregrated-private.png" alt="Segregated">
+							</div>
+							<div class="description">
+								<strong class="title">Segregated Private Domains</strong>
+								<p>Note that while all domains are conceptually part of the Virtual Global ledger, they are in fact <b>Private</b> or <b>Segregated Domains</b>. No outsider will know that a domain even exists. Nevertheless, participants are not locked into their decision, as they can always connect and transfer their smart contracts to other domains and still benefit from the integrity, transparency and privacy guarantees of the Virtual Global Ledger.</p>
+								<p><b>1 + 1 = 1</b> With other ledgers, if you deploy a second one, you end up with two siloed ledgers. Canton is different. If you deploy a second domain, it is still the same ledger.</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-holder">
+					<span class="copyight">
+						<a href="https://www.digitalasset.com"><img src="images/copyright.svg" alt="copyright"> 2023 Digital Asset Holdings, LLC</a>
+					</span>
+					<p>All trademarks, logos and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only. </p>
+					<ul class="terms-list base-ul">
+                        <li><a href="https://hub.digitalasset.com/phishing-warning">Warning - Phishing &amp; Scams</a></li>
+						<li><a href="https://hub.digitalasset.com/privacy-policy">Privacy Policy</a></li>
+						<li><a href="https://hub.digitalasset.com/responsible-disclosure/">Responsible Disclosure Policy</a></li>
+						<li><a href="https://hub.digitalasset.com/trademark-policy">Trademark Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- Start of HubSpot Embed Code -->
+	<script type="text/javascript" id="hs-script-loader" async defer src="https://js.hs-scripts.com/5388578.js"></script>
+	<!-- End of HubSpot Embed Code -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-64532708-4"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-64532708-4');
+	</script>
+</body>
+</html>
+
